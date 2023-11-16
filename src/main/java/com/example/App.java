@@ -81,7 +81,7 @@ public class App {
         bufferedWriter.write("Subject: "+scanner.nextLine());
         bufferedWriter.newLine();
         bufferedWriter.flush();
-        
+
         System.out.println("Type your contents (type \"0\" to exit):");
         while(true)
         {
